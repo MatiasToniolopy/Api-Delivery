@@ -6,6 +6,8 @@ API DJANGO REST FRAMEWORK
 
 [![screenshot.png](https://i.postimg.cc/T24Mm8yf/screenshot.png)](https://postimg.cc/yWcb4bXb)
 
+[![screenshot1.png](https://i.postimg.cc/nVvSF6v3/screenshot1.png)](https://postimg.cc/3WxF9ffG)
+
 
 
 ## Comenzando 🚀
