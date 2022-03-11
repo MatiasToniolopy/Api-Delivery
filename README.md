@@ -1,7 +1,7 @@
 # Título del Proyecto
 ```
-_Api para servicio d edelivery_
-_API DJANGO REST FRAMEWORK_
+Api para servicio de delivery
+API DJANGO REST FRAMEWORK
 ```
 
 
