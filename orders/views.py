@@ -1,11 +1,12 @@
-from django.shortcuts import render, get_object_or_404
+from django.contrib.auth import get_user_model
+from django.shortcuts import get_object_or_404, render
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework import generics, status
+from rest_framework.permissions import (IsAdminUser, IsAuthenticated, IsAuthenticatedOrReadOnly)
 from rest_framework.response import Response
+
 from . import serializers
 from .models import Order
-from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly, IsAdminUser
-from django.contrib.auth import get_user_model
-from drf_yasg.utils import swagger_auto_schema
 
 User = get_user_model()
 

@@ -1,10 +1,10 @@
 from django.shortcuts import render
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework import generics, status
 from rest_framework.response import Response
-from drf_yasg.utils import swagger_auto_schema
-from . models import User
-from . import serializers
 
+from . import serializers
+from .models import User
 
 # class HelloAuthView(generics.GenericAPIView):
     
